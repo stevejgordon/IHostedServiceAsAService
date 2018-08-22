@@ -14,6 +14,6 @@ sc create MyFileService binPath= "E:\Projects\IHostedServiceAsAService\IHostedSe
 
 ### Start the service
 
-c start MyService
+sc start MyService
 
 For further details see my blog post [Running a .NET Core Generic Host App as a Windows Service](https://www.stevejgordon.co.uk/running-net-core-generic-host-applications-as-a-windows-service)
